@@ -1,0 +1,566 @@
+*{margin:0px;
+padding:0px;
+}
+
+.cistac{
+	clear:both;
+}
+
+#head{
+	margin-top:-70px;
+}
+
+header a{
+	color:#D3E70C;
+	font-family: Georgia, serif;
+}
+
+#zmijski-kutak{
+	float:left;
+	margin-top:-50px;
+	margin-left:30px;
+}
+
+.logo a img{
+	height:70px;
+	width:70px;
+	float:left;
+}
+
+header{
+	background-color:#3E5C19;
+	position: fixed;
+	width:100%;
+	height:70px;
+}
+
+#naslov{
+	width:100%;
+	height:700px;
+	background-image:url("img/pozadina.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 900px;
+}
+
+#kratki-opis{
+	font-family:Lucida Bright;
+	font-size:40px;
+	width:100%;
+	height:150px;
+	background-color:#64A04C;
+}
+
+#kratki-opis a{
+	color:#000000;
+	text-decoration:none;
+}
+
+.lista{
+	width:700px;
+	margin-left:50%;
+	height:100%;
+}
+
+.lista ul{
+	margin-top:10px;
+	text-align:center;
+	list-style-type:none;
+	float:left;
+	font-size:27px;
+}
+
+.lista ul li{
+	padding:10px 20px;
+	list-style-type:none;
+	transition:0.5s;
+	margin-left:15px;
+	display: inline-block;
+	position: relative;
+}
+
+.lista ul li a{
+	text-decoration:none;
+	transition:color 0.1s;
+}
+
+.lista ul li a:hover{
+	color:#3E5C19;
+}
+
+.lista ul li:hover{
+	background-color:#D3E70C;
+	font-weight:bold;
+	border-radius:10%;
+}
+
+body{
+	background-image: url("img/vecteezy_green-snake-skin-seamless-pattern-background_14976344.jpg");
+}
+
+body h1{
+	text-align:center;
+	margin-top:70px;
+	color:#D3E70C;
+
+}
+
+body h3{
+	text-align:center;
+}
+
+#najpopularniji h1{
+	text-align:center;
+	font-size:60px;
+}
+
+#naslov{
+	font-family:Goudy Old Style;
+}
+
+body h2{
+	text-align:center;
+	font-size:70px;
+}
+
+footer{
+	background-color:#575757;
+	width:100%;
+	height:200px;
+	position:absolute;
+	color:#3E5C19;
+}
+
+footer h2{
+	font-size:25px;
+}
+
+#najpopularniji{
+	margin-top:-70px;
+	background-color:#3E5C19;
+	width:100%;
+	height:700px;
+}
+
+#najpopularniji h1{
+	text-align:center;
+}
+
+.drugari h2{
+	font-size:50px;
+	font-family:Georgia;
+}
+
+.drugari p{
+	font-family:Georgia;
+}
+
+.drugari{
+	width:300px;
+	height:150px;
+	float:left;
+}
+
+#kralj{
+	width:320px;
+	height:450px;
+	margin-top:100px;
+	margin-left:350px;
+}
+
+#kralj p{
+	transition:color 0.7s;
+	color:#3E5C19;
+}
+
+#kralj img{
+	border-radius:50%;
+	width:320px;
+	height:320px;
+	box-shadow:3px 3px 4px #000;
+}
+
+#kralj:hover img{
+	transition:1s;
+	border-radius:0px;
+}
+
+#kralj:hover p{
+	color:#3FD82D;
+}
+
+#kingsnake p{
+	transition:color 0.7s;
+	color:#3E5C19;
+}
+
+#kingsnake{
+	width:320px;
+	height:450px;
+	margin:100px;
+}
+
+#kingsnake img{
+	border-radius:50%;
+	width:320px;
+	height:310px;
+	box-shadow:3px 3px 4px #000;
+}
+
+#kingsnake:hover img{
+	transition:1s;
+	border-radius:0px;
+}
+
+#kingsnake:hover p{
+	color:#3FD82D;
+}
+
+#žnj{
+	width:100%;
+	height:600px;
+	background-color:#529347;
+	margin-top:70px;
+}
+
+#žnj h2{
+	font-size:45px;
+	font-family:Rockwell;
+	text-shadow:-3px 4px 5px #172A17;
+}
+
+#ja {
+	border-radius:50%;
+	background-image:url("img/portret.jpg");
+	background-size:100% 400px;
+	background-repeat:no-repeat;
+	width:400px;
+	height:400px;
+	margin-left:200px;
+	margin-top:40px;
+	float:left;
+}
+
+#potpis{
+	margin-left:350px;
+	margin-top:70px;
+	font-family:Lucida Handwriting;
+}
+
+#ja-opis p {
+	font-size:20px;
+	line-height:20px;
+}
+
+#ja-opis {
+	width:500px;
+	height:300px;
+	background-color:yellow;
+	float:right;
+	margin-right:300px;
+	margin-top:100px;
+}
+
+#lokacija{
+	width:70%;
+	height:350px;
+	background-color:#186419;
+	margin-top:50px;
+	margin-left:250px;
+}
+
+#lokacija img{
+	float:left;
+	width:45%;
+	height:100%;
+}
+
+#lokacija p{
+	text-align:center;
+	line-height:50px;
+	color:#000000;
+	font-size:30px;
+	font-family:Arial black;
+}
+
+#vreme h2{
+	font-family:Franklin Gothic Medium;
+}
+
+#vreme p{
+	line-height:50px;
+	font-size:20px;
+	font-family:Bahnschrift SemiBold;
+}
+
+#vreme{
+	color:#F0FF26;
+	float:left;
+	width:20%;
+	height:100%;
+}
+
+
+#kontakt{
+	color:#F0FF26;
+	float:right;
+	width:30%;
+	height:100%;
+}
+
+#kontakt p{
+	line-height:50px;
+	font-size:20px;
+	font-family:Bahnschrift SemiBold;
+}
+
+svg{
+	background-color:#F0FF26;
+	width:30px;
+	height:30px;
+}
+
+autor{
+	font-family:Brush Script MT,Lucida Handwriting;
+}
+
+hr{
+	width:100%;
+	border-top: 1px solid #DCF441;
+}
+
+#IS{
+	margin-top:200px;
+}
+
+#O_nama{
+	background-color:#4FCF72;
+	height:2000px;
+	width:100%;
+}
+
+.Onama p{
+	font-size:25px;
+	line-height:40px;
+	font-family:Bookman;
+}
+
+#istorija h2{
+	font-size:40px;
+}
+
+#istorija{
+	width:100%;
+	height:400px;
+	background-color:#4FCF72;
+	text-align:center;
+}
+
+#istorija img{
+	margin-top:80px;
+	float:left;
+	border-radius:50%;
+	height:100%;
+	width:40%;
+}
+
+#kasir{
+	display:flex;
+	margin-top:70px;
+	width:100%;
+	height:600px;
+	text-align:center;
+}
+
+#kasir p{
+	float:left;
+	margin-top:40px;
+}
+
+#kasir img{
+	float:right;
+	height:300px;
+	border-radius:50%;
+	width:60%;
+}
+
+
+#kolektor p{
+	font-size:30px;
+	margin-top:100px;
+}
+
+#kolektor{
+	margin-top:-220px;
+	display:flex;
+	width:100%;
+	height:600px;
+	text-align:center;
+}
+
+#kolektor img{
+	float:left;
+	height:60%;
+	border-radius:50%;
+	width:30%;
+}
+
+
+#sponzor{
+	margin-top:-220px;
+	display:flex;
+	width:100%;
+	height:600px;
+	text-align:center;
+}
+
+#sponzor p{
+	margin-top:100px;
+	font-size:30px;
+	margin-top:100px;
+	float:left;
+}
+
+#sponzor img{
+	float:right;
+	height:60%;
+	border-radius:50%;
+	width:40%;
+}
+
+#opis{
+	background-color:#229954;
+	width:100%;
+	height:2000px;
+	padding:100px auto;
+}
+
+.zmije{
+	width:400px;
+	height:600px;
+	float:left;
+}
+
+#lala{
+	margin-top:100px;
+	margin-left:200px;
+	width:400px;
+	height:600px;
+}
+
+#lala img{
+	border-radius:50%;
+	width:100%;
+	height:250px;
+}
+
+#lala p{
+	color:#229954;
+	transition:color 0.7s;
+}
+
+#lala:hover img{
+	transition:1s;
+	border-radius:0px;
+}
+
+#lala:hover p{
+	color:#000000;
+}
+
+#plavko img{
+	border-radius:50%;
+	width:100%;
+	height:250px;
+}
+
+#plavko{
+	margin-top:100px;
+	margin-left:200px;
+	width:400px;
+	height:600px;
+}
+
+#plavko p{
+	color:#229954;
+	transition:color 0.7s;
+}
+
+#plavko:hover img{
+	transition:1s;
+	border-radius:0px;
+}
+
+#plavko:hover p{
+	color:#000000;
+}
+
+
+
+.zmije img{
+	border-radius:50%;
+	width:100%;
+	height:300px;
+}
+
+.zmije p{
+	color:#229954;
+	transition:color 0.7s;
+}
+
+.zmije {
+	margin-left:200px;
+	margin-top:100px;
+	width:400px;
+	height:600px;
+}
+
+.zmije:hover img{
+	transition:1s;
+	border-radius:0px;
+}
+
+.zmije:hover p{
+	color:#000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
